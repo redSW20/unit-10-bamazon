@@ -1,0 +1,24 @@
+{
+  "name": "unit-12-bamazon",
+  "version": "1.0.0",
+  "description": "node.js and MYSQL based project",
+  "main": "index.js",
+  "dependencies": {
+    "inquirer": "^6.3.1",
+    "mysql": "^2.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/redSW20/unit-12-bamazon.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/redSW20/unit-12-bamazon/issues"
+  },
+  "homepage": "https://github.com/redSW20/unit-12-bamazon#readme"
+}

@@ -26,3 +26,22 @@ function displayItems(){
             selectItem();
         });
 };
+
+// Prompts the user for the id of the item they'd like to purchase
+function selectItem() {
+    inquirer
+        .prompt([
+            {
+                name: "id",
+                message: "Please enter the id of the item you'd like to purchase: ",
+                type: "input",
+                validate: function validateNumber(id){
+                    if(!parseInt(id)) return false;
+                    return true;
+                }
+            }
+        ])
+        .then(answers => {
+            selectQuantity(parseInt(answers.id));
+        });
+};
